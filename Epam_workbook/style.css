@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4; /* Light background */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content within the card */
+    width: 300px; /* Set a fixed width for the card */
+}
+
+.card label,
+.card input,
+.card button,
+.card #result {
+    display: block; /* Stack elements vertically */
+    margin: 10px auto; /* Center elements horizontally */
+    width: 80%; /* Set width of input and button */
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.card #result {
+    margin-top: 20px;
+    font-weight: bold;
+}
